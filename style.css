@@ -1,0 +1,81 @@
+ul.side-nav.fixed li.logo {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px
+}
+
+.brand-logo h1 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    font-weight: inherit;
+}
+
+li.logo span {
+	display: block;
+	font-size: 14px;
+}
+
+.nav_items {
+	padding: 15px !important;
+	font-size: 1.25rem;
+}
+
+.icons_sidenav {
+	right: 5px;
+}
+
+.icons_about {
+	color: green;
+}
+
+.icons_experience {
+	color: blue;
+}
+
+.icons_skills {
+	color: red;
+}
+
+.icons_projects {
+	color: purple;
+}
+
+.icons_contact {
+	color: orange;
+}
+
+.span_item {
+
+}
+
+main {
+	background: url(./bg.png) repeat;
+}
+
+.section_section {
+	background-color: #8882
+}
+
+.skills {
+	border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+img.responsive-img {
+	margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    cursor: pointer;
+}
+
+.img_container {
+	text-align: center;
+	font-size: 20px;
+}

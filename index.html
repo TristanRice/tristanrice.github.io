@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tristan Rice</title>
+		<meta name = "viewport" content="width = device-width, initial-scale = 1">      
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script type = "text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	</head>
+
+	<body>
+		<ul id="slide-out" class="side-nav fixed" style="width: 20rem;">
+			<li class="logo">
+				<a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text" style="font-size: 2rem;">
+					<h1>
+						Tristan Rice
+						<span class="brown-text light">Full Stack Developer</span>
+					</h1>
+				</a>
+			</li>
+			<li>
+				<a href="#about" class="nav_items">
+					<span>
+						<i class="fas fa-user icons_sidenav icons_about"></i>
+					</span>
+					<span style="margin-left: 1rem;">
+						About
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="#experience" class="nav_items">
+					<span>
+						<i class="fas fa-book icons_sidenav icons_experience"></i>
+					</span>
+
+					<span style="margin-left: 1rem;">
+						Experience
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="#skills" class="nav_items">
+					<span>
+						<i class="fas fa-chart-pie icons_sidenav icons_skills"></i>
+					</span>
+
+					<span style="margin-left: 1rem;">
+						Skills
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="#recentprojects" class="nav_items">
+					<span>
+						<i class="fas fa-project-diagram icons_sidenav icons_projects"></i>
+					</span>
+
+					<span style="margin-left: 1rem;">
+						Recent Projects
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="#contact" class="nav_items">
+					<span>
+						<i class="fas fa-phone icons_sidenav icons_contact"></i>
+					</span>
+ 
+					<span style="margin-left: 1rem;">
+						Contact me
+					</span>
+				</a>
+			</li>
+
+		</ul>
+		<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+		<main style="padding-left: 20rem; width: 100%;">
+			<section id="about" class="section scrollspy section_section">
+				<h3 class="page-title white-text teal" style="padding: 20px;">// About me </h3>
+				<div class="container flow-text">
+				</div>
+				<div class="container flow-text">
+					<blockquote>
+						<h4>
+							Motivated full stack developer focused on creating both performant and beautiful applications
+						</h4>
+					</blockquote>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien sem, lacinia euismod dapibus non, ultrices sit amet nisl. Proin maximus leo sem, interdum dignissim diam convallis vel. Suspendisse feugiat, nisi a venenatis egestas, lorem tellus tempor quam, ac placerat felis nibh vitae sem. Maecenas rhoncus ante diam, at porttitor metus interdum ut. Praesent congue non est at blandit. Nulla ut imperdiet augue, vitae rutrum nunc. Praesent porta tortor pharetra sem ultricies aliquet. Suspendisse convallis erat nulla, ut elementum neque malesuada ut.
+					</p>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien sem, lacinia euismod dapibus non, ultrices sit amet nisl. Proin maximus leo sem, interdum dignissim diam convallis vel. Suspendisse feugiat, nisi a venenatis egestas, lorem tellus tempor quam, ac placerat felis nibh vitae sem. Maecenas rhoncus ante diam, at porttitor metus interdum ut. Praesent congue non est at blandit. Nulla ut imperdiet augue, vitae rutrum nunc. Praesent porta tortor pharetra sem ultricies aliquet. Suspendisse convallis erat nulla, ut elementum neque malesuada ut.
+					</p>
+				</div>
+			</section>
+
+			<section id="experience" class="section scrollspy section_section">
+				<h3 class="page-title white-text teal" style="padding: 20px;">// Testimonials</h3>
+				<div class="container">
+					<div class="card" id="testimonials">
+						<div class="card-content">
+							Code was well written, and the client was very communicative
+						</div>
+					</div>
+				</div>
+
+			<section id="skills" class="section scrollspy section_section">
+				<h3 class="page-title white-text teal" style="padding: 20px;">// Skills</h3>
+				<div class="container">
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">Back-end</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/java.jpg" class="responsive-img"></IMG>
+									Java
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/nodejs.png" class="responsive-img"></IMG>
+									NodeJS
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/php-logo.jpg" class="responsive-img"></IMG>
+									PHP
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/golang.png" class="responsive-img"></IMG>
+									GoLang
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">Javascript</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/JQuery-Tutorial.png" class="responsive-img"></IMG>
+									Jquery
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/Vue.png" class="responsive-img"></IMG>
+									VueJS
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/AngularJS.png" class="responsive-img"></IMG>
+									Angular
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/react.jpg" class="responsive-img"></IMG>
+									React
+								</div>
+							</div>
+						</div>
+					</div>
+
+				
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">CSS</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/css3.png" class="responsive-img"></IMG>
+									CSS3
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/bootstrap.png" class="responsive-img"></IMG>
+									Bootstrap
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/download.png" class="responsive-img"></IMG>
+									MaterializeCSS
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/sass.png" class="responsive-img"></IMG>
+									Sass
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">Databases</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/mongodb.png" class="responsive-img"></IMG>
+									Mongodb
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/mysql.png" class="responsive-img"></IMG>
+									MySQL
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">Container & deployment</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/icon_small.png" class="responsive-img"></IMG>
+									Kubernetes
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/docker.png" class="responsive-img"></IMG>
+									Docker
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/heroku.png" class="responsive-img"></IMG>
+									Heroku
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-content">
+							<h4 class="skills">Other</h4>
+							<div class="row text-center">
+								<div class="col s3 img_container">
+									<IMG src="img/git.jpg" class="responsive-img"></IMG>
+									Git
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/bower.png" class="responsive-img"></IMG>
+									Bower
+								</div>
+								<div class="col s3 img_container">
+									<IMG src="img/npm.png" class="responsive-img"></IMG>
+									NPM
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section id="recentprojects" class="section scrollspy section_section">
+				<h3 class="page-title white-text teal" style="padding: 20px;">// Recent Projects</h3>
+				<div class="container">
+					<div class="row">
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m6 l4">
+							<div class="card medium">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img src="img/bower.png" class="activator">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+									<p>One two three four</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script type="text/javascript" src="scripts.js"></script>
+
+	</body>
+</html>
